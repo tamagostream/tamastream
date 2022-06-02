@@ -194,7 +194,7 @@ blockquote.blockquote::before{
 
 /* Helper Classes & Shorcodes */
 .padding {
-    padding: 7.5rem 0;
+    padding: 4rem 0;
 }
 .padding_top {
     padding-top:7.5rem;
@@ -4116,6 +4116,7 @@ visibility:hidden;
 	line-height: 90px;
 	color: #fff;
 }
+
 .feature-item .icon::before {
 	content: "";
 	background: transparent;
@@ -4134,6 +4135,44 @@ visibility:hidden;
     animation: itg_pulse 1s infinite;
     -webkit-box-shadow:0 0 0 0 rgba(100, 48, 148, 1);
     box-shadow:0 0 0 0 rgba(100, 48, 148, 1);
+}
+
+.partner-item {
+   /* padding: 10px 10px; */
+   background-color: #2de21c;
+   text-align: center;
+   max-width: 290px;
+   height: 140px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+}
+
+.partner-item img {
+   max-width: 100%;
+   height: auto;
+   align-self: center;
+}
+
+.client-item {
+   /* padding: 0 10px; */
+   background-color: #2de21c;
+   text-align: center;
+   max-width: 288px;
+   height: 160px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+}
+
+.client-item img {
+   max-width: 100%;
+   height: auto;
+   align-self: center;
+}
+
+.client-item :hover {
+   cursor: pointer;
 }
 
 @-webkit-keyframes itg_pulse {
