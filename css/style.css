@@ -109,7 +109,7 @@ button{
    box-shadow: 0 0 40px 40px #15c66a inset, 0 0 0 0 #3498db;
    -webkit-transition: all 150ms ease-in-out;
    transition: all 150ms ease-in-out;
-   height:50px;
+
    box-sizing: border-box;
    -webkit-appearance: none;
       -moz-appearance: none;
