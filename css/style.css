@@ -1444,8 +1444,7 @@ and (height: 375px)  {
      /* IPHONE 12/11 */
 @media only screen 
 and (width: 390px) 
-and (height: 844px) 
-and (-webkit-device-pixel-ratio: 3) {
+and (height: 844px) {
 
    .padding_top {
       margin-top: -110px;
@@ -1466,11 +1465,20 @@ and (-webkit-device-pixel-ratio: 3) {
 @media only screen 
 and (width: 844px) 
 and (height: 390px) 
-and (-webkit-device-pixel-ratio: 3) {
-
+ {
    .padding_top {
-      margin-top: 150px;
+      margin-top: 160px;
    } 
+
+   .moveBB {
+      margin-top: -70px;
+
+   }
+   .cal-convertor {
+      margin-bottom: 0px;
+   }
+
+
 
 
  }
