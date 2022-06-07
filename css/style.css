@@ -1452,11 +1452,11 @@ and (-webkit-device-pixel-ratio: 3) {
    } 
 
    .moveBB {
-      margin-top: -150px;
+      margin-top: -70px;
 
    }
    .cal-convertor {
-      margin-bottom: -15px;
+      margin-bottom: 0px;
    }
 
  }
