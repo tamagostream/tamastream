@@ -109,7 +109,7 @@ button{
    box-shadow: 0 0 40px 40px #15c66a inset, 0 0 0 0 #3498db;
    -webkit-transition: all 150ms ease-in-out;
    transition: all 150ms ease-in-out;
-   height:50px;
+
    box-sizing: border-box;
    -webkit-appearance: none;
       -moz-appearance: none;
@@ -126,7 +126,7 @@ button{
    -webkit-align-self: center;
        -ms-flex-item-align: center;
            align-self: center;
-   font-size: 1rem;
+   font-size: .9rem;
    font-weight: 400;
    line-height: 1;
    padding: 1.2em 2.8em;
@@ -852,7 +852,7 @@ i::before,i::after{
    margin:14px;
    height:60px;
    padding: 7;
-   width: 100px;
+   width: 20px;
    position: relative;
 }
 .center-brand .navbar-brand {
@@ -1444,19 +1444,18 @@ and (height: 375px)  {
      /* IPHONE 12/11 */
 @media only screen 
 and (width: 390px) 
-and (height: 844px) 
-and (-webkit-device-pixel-ratio: 3) {
+and (height: 844px) {
 
    .padding_top {
-      margin-top: -130px;
+      margin-top: -110px;
    } 
 
    .moveBB {
-      margin-top: -150px;
+      margin-top: -70px;
 
    }
    .cal-convertor {
-      margin-bottom: -15px;
+      margin-bottom: 0px;
    }
 
  }
@@ -1466,11 +1465,20 @@ and (-webkit-device-pixel-ratio: 3) {
 @media only screen 
 and (width: 844px) 
 and (height: 390px) 
-and (-webkit-device-pixel-ratio: 3) {
-
+ {
    .padding_top {
-      margin-top: 150px;
+      margin-top: 160px;
    } 
+
+   .moveBB {
+      margin-top: -70px;
+
+   }
+   .cal-convertor {
+      margin-bottom: 0px;
+   }
+
+
 
 
  }
