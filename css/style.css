@@ -1135,7 +1135,7 @@ i::before,i::after{
 	top: 16px;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
-	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+	-webkit-box-shadow: 0 0 20px rgba(170, 85, 85, 0.15);
 	box-shadow: 0 0 20px rgba(0, 0, 0, .15);
 }
 .side-menu .btn-close::before, .side-menu .btn-close::after {
